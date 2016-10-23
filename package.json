@@ -1,0 +1,29 @@
+{
+  "name": "colab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elju/colab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elju/colab/issues"
+  },
+  "homepage": "https://github.com/elju/colab#readme",
+  "dependencies": {
+    "bulma": "^0.2.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
