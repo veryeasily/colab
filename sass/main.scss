@@ -24,8 +24,12 @@
 
 .section {
   &__image {
-    display: block;
-    margin: 0 auto;
+    @extend .image;
+
+    &--landing {
+        @extend .image;
+        width: 600px;
+    }
   }
   &__heading {
     font-size: 30px;
