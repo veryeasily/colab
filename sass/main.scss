@@ -44,10 +44,12 @@
 
 .projects-grid {
   @extend .columns;
+  @extend .is-multiline;
   &__item {
     @extend .column;
     @extend .is-9;
     @extend .is-offset-2;
+    display: block;
   }
 }
 

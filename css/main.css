@@ -3260,7 +3260,7 @@ a.panel-block:hover {
           margin-left: 0; } }
   .columns.is-mobile, .is-mobile.nav, .is-mobile.projects-grid {
     display: flex; }
-  .columns.is-multiline, .is-multiline.nav, .is-multiline.projects-grid {
+  .columns.is-multiline, .is-multiline.nav, .projects-grid {
     flex-wrap: wrap; }
   .columns.is-vcentered, .is-vcentered.nav, .is-vcentered.projects-grid {
     align-items: center; }
@@ -3903,6 +3903,9 @@ a.panel-block:hover {
 
 .section__text--large {
   padding-top: 15px; }
+
+.projects-grid__item {
+  display: block; }
 
 .main {
   margin: 0 auto;
