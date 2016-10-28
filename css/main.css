@@ -1574,9 +1574,9 @@ a.box:active {
     font-size: 28px; }
     .title.is-3 code {
       font-size: 24px; }
-  .title.is-4, .title.projects-grid__item {
+  .title.is-4 {
     font-size: 24px; }
-    .title.is-4 code, .title.projects-grid__item code {
+    .title.is-4 code {
       font-size: 18px; }
   .title.is-5 {
     font-size: 18px; }
@@ -1620,9 +1620,9 @@ a.box:active {
     font-size: 28px; }
     .subtitle.is-3 code {
       font-size: 24px; }
-  .subtitle.is-4, .subtitle.projects-grid__item {
+  .subtitle.is-4 {
     font-size: 24px; }
-    .subtitle.is-4 code, .subtitle.projects-grid__item code {
+    .subtitle.is-4 code {
       font-size: 18px; }
   .subtitle.is-5 {
     font-size: 18px; }
@@ -2811,14 +2811,14 @@ a.panel-block:hover {
   .columns.is-mobile > .column.is-2, .is-mobile.nav > .column.is-2, .is-mobile.projects-grid > .column.is-2, .columns.is-mobile > .is-2.nav__link-holder, .is-mobile.nav > .is-2.nav__link-holder, .is-mobile.projects-grid > .is-2.nav__link-holder, .columns.is-mobile > .is-2.projects-grid__item, .is-mobile.nav > .is-2.projects-grid__item, .is-mobile.projects-grid > .is-2.projects-grid__item {
     flex: none;
     width: 16.66667%; }
-  .columns.is-mobile > .column.is-offset-2, .is-mobile.nav > .column.is-offset-2, .is-mobile.projects-grid > .column.is-offset-2, .columns.is-mobile > .is-offset-2.nav__link-holder, .is-mobile.nav > .is-offset-2.nav__link-holder, .is-mobile.projects-grid > .is-offset-2.nav__link-holder, .columns.is-mobile > .is-offset-2.projects-grid__item, .is-mobile.nav > .is-offset-2.projects-grid__item, .is-mobile.projects-grid > .is-offset-2.projects-grid__item {
+  .columns.is-mobile > .column.is-offset-2, .is-mobile.nav > .column.is-offset-2, .is-mobile.projects-grid > .column.is-offset-2, .columns.is-mobile > .is-offset-2.nav__link-holder, .is-mobile.nav > .is-offset-2.nav__link-holder, .is-mobile.projects-grid > .is-offset-2.nav__link-holder, .columns.is-mobile > .nav__link-holder.projects-grid__item, .columns.is-mobile > .projects-grid__item, .is-mobile.nav > .projects-grid__item, .is-mobile.projects-grid > .projects-grid__item {
     margin-left: 16.66667%; }
   .columns.is-mobile > .column.is-3, .is-mobile.nav > .column.is-3, .is-mobile.projects-grid > .column.is-3, .columns.is-mobile > .is-3.nav__link-holder, .is-mobile.nav > .is-3.nav__link-holder, .is-mobile.projects-grid > .is-3.nav__link-holder, .columns.is-mobile > .is-3.projects-grid__item, .is-mobile.nav > .is-3.projects-grid__item, .is-mobile.projects-grid > .is-3.projects-grid__item {
     flex: none;
     width: 25%; }
   .columns.is-mobile > .column.is-offset-3, .is-mobile.nav > .column.is-offset-3, .is-mobile.projects-grid > .column.is-offset-3, .columns.is-mobile > .is-offset-3.nav__link-holder, .is-mobile.nav > .is-offset-3.nav__link-holder, .is-mobile.projects-grid > .is-offset-3.nav__link-holder, .columns.is-mobile > .is-offset-3.projects-grid__item, .is-mobile.nav > .is-offset-3.projects-grid__item, .is-mobile.projects-grid > .is-offset-3.projects-grid__item {
     margin-left: 25%; }
-  .columns.is-mobile > .column.is-4, .is-mobile.nav > .column.is-4, .is-mobile.projects-grid > .column.is-4, .columns.is-mobile > .is-4.nav__link-holder, .is-mobile.nav > .is-4.nav__link-holder, .is-mobile.projects-grid > .is-4.nav__link-holder, .columns.is-mobile > .nav__link-holder.projects-grid__item, .columns.is-mobile > .projects-grid__item, .is-mobile.nav > .projects-grid__item, .is-mobile.projects-grid > .projects-grid__item {
+  .columns.is-mobile > .column.is-4, .is-mobile.nav > .column.is-4, .is-mobile.projects-grid > .column.is-4, .columns.is-mobile > .is-4.nav__link-holder, .is-mobile.nav > .is-4.nav__link-holder, .is-mobile.projects-grid > .is-4.nav__link-holder, .columns.is-mobile > .is-4.projects-grid__item, .is-mobile.nav > .is-4.projects-grid__item, .is-mobile.projects-grid > .is-4.projects-grid__item {
     flex: none;
     width: 33.33333%; }
   .columns.is-mobile > .column.is-offset-4, .is-mobile.nav > .column.is-offset-4, .is-mobile.projects-grid > .column.is-offset-4, .columns.is-mobile > .is-offset-4.nav__link-holder, .is-mobile.nav > .is-offset-4.nav__link-holder, .is-mobile.projects-grid > .is-offset-4.nav__link-holder, .columns.is-mobile > .is-offset-4.projects-grid__item, .is-mobile.nav > .is-offset-4.projects-grid__item, .is-mobile.projects-grid > .is-offset-4.projects-grid__item {
@@ -2843,7 +2843,7 @@ a.panel-block:hover {
     width: 66.66667%; }
   .columns.is-mobile > .column.is-offset-8, .is-mobile.nav > .column.is-offset-8, .is-mobile.projects-grid > .column.is-offset-8, .columns.is-mobile > .is-offset-8.nav__link-holder, .is-mobile.nav > .is-offset-8.nav__link-holder, .is-mobile.projects-grid > .is-offset-8.nav__link-holder, .columns.is-mobile > .is-offset-8.projects-grid__item, .is-mobile.nav > .is-offset-8.projects-grid__item, .is-mobile.projects-grid > .is-offset-8.projects-grid__item {
     margin-left: 66.66667%; }
-  .columns.is-mobile > .column.is-9, .is-mobile.nav > .column.is-9, .is-mobile.projects-grid > .column.is-9, .columns.is-mobile > .is-9.nav__link-holder, .is-mobile.nav > .is-9.nav__link-holder, .is-mobile.projects-grid > .is-9.nav__link-holder, .columns.is-mobile > .is-9.projects-grid__item, .is-mobile.nav > .is-9.projects-grid__item, .is-mobile.projects-grid > .is-9.projects-grid__item {
+  .columns.is-mobile > .column.is-9, .is-mobile.nav > .column.is-9, .is-mobile.projects-grid > .column.is-9, .columns.is-mobile > .is-9.nav__link-holder, .is-mobile.nav > .is-9.nav__link-holder, .is-mobile.projects-grid > .is-9.nav__link-holder, .columns.is-mobile > .nav__link-holder.projects-grid__item, .columns.is-mobile > .projects-grid__item, .is-mobile.nav > .projects-grid__item, .is-mobile.projects-grid > .projects-grid__item {
     flex: none;
     width: 75%; }
   .columns.is-mobile > .column.is-offset-9, .is-mobile.nav > .column.is-offset-9, .is-mobile.projects-grid > .column.is-offset-9, .columns.is-mobile > .is-offset-9.nav__link-holder, .is-mobile.nav > .is-offset-9.nav__link-holder, .is-mobile.projects-grid > .is-offset-9.nav__link-holder, .columns.is-mobile > .is-offset-9.projects-grid__item, .is-mobile.nav > .is-offset-9.projects-grid__item, .is-mobile.projects-grid > .is-offset-9.projects-grid__item {
@@ -2993,14 +2993,14 @@ a.panel-block:hover {
     .column.is-2, .is-2.nav__link-holder, .is-2.projects-grid__item, .column.is-2-tablet, .is-2-tablet.nav__link-holder, .is-2-tablet.projects-grid__item {
       flex: none;
       width: 16.66667%; }
-    .column.is-offset-2, .is-offset-2.nav__link-holder, .is-offset-2.projects-grid__item, .column.is-offset-2-tablet, .is-offset-2-tablet.nav__link-holder, .is-offset-2-tablet.projects-grid__item {
+    .column.is-offset-2, .is-offset-2.nav__link-holder, .projects-grid__item, .column.is-offset-2-tablet, .is-offset-2-tablet.nav__link-holder, .is-offset-2-tablet.projects-grid__item {
       margin-left: 16.66667%; }
     .column.is-3, .is-3.nav__link-holder, .is-3.projects-grid__item, .column.is-3-tablet, .is-3-tablet.nav__link-holder, .is-3-tablet.projects-grid__item {
       flex: none;
       width: 25%; }
     .column.is-offset-3, .is-offset-3.nav__link-holder, .is-offset-3.projects-grid__item, .column.is-offset-3-tablet, .is-offset-3-tablet.nav__link-holder, .is-offset-3-tablet.projects-grid__item {
       margin-left: 25%; }
-    .column.is-4, .is-4.nav__link-holder, .projects-grid__item, .column.is-4-tablet, .is-4-tablet.nav__link-holder, .is-4-tablet.projects-grid__item {
+    .column.is-4, .is-4.nav__link-holder, .is-4.projects-grid__item, .column.is-4-tablet, .is-4-tablet.nav__link-holder, .is-4-tablet.projects-grid__item {
       flex: none;
       width: 33.33333%; }
     .column.is-offset-4, .is-offset-4.nav__link-holder, .is-offset-4.projects-grid__item, .column.is-offset-4-tablet, .is-offset-4-tablet.nav__link-holder, .is-offset-4-tablet.projects-grid__item {
@@ -3025,7 +3025,7 @@ a.panel-block:hover {
       width: 66.66667%; }
     .column.is-offset-8, .is-offset-8.nav__link-holder, .is-offset-8.projects-grid__item, .column.is-offset-8-tablet, .is-offset-8-tablet.nav__link-holder, .is-offset-8-tablet.projects-grid__item {
       margin-left: 66.66667%; }
-    .column.is-9, .is-9.nav__link-holder, .is-9.projects-grid__item, .column.is-9-tablet, .is-9-tablet.nav__link-holder, .is-9-tablet.projects-grid__item {
+    .column.is-9, .is-9.nav__link-holder, .projects-grid__item, .column.is-9-tablet, .is-9-tablet.nav__link-holder, .is-9-tablet.projects-grid__item {
       flex: none;
       width: 75%; }
     .column.is-offset-9, .is-offset-9.nav__link-holder, .is-offset-9.projects-grid__item, .column.is-offset-9-tablet, .is-offset-9-tablet.nav__link-holder, .is-offset-9-tablet.projects-grid__item {
@@ -3306,7 +3306,7 @@ a.panel-block:hover {
     .tile.is-3 {
       flex: none;
       width: 25%; }
-    .tile.is-4, .tile.projects-grid__item {
+    .tile.is-4 {
       flex: none;
       width: 33.33333%; }
     .tile.is-5 {
@@ -3321,7 +3321,7 @@ a.panel-block:hover {
     .tile.is-8 {
       flex: none;
       width: 66.66667%; }
-    .tile.is-9 {
+    .tile.is-9, .tile.projects-grid__item {
       flex: none;
       width: 75%; }
     .tile.is-10 {

@@ -46,7 +46,8 @@
   @extend .columns;
   &__item {
     @extend .column;
-    @extend .is-4;
+    @extend .is-9;
+    @extend .is-offset-2;
   }
 }
 
