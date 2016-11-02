@@ -1280,14 +1280,14 @@ a.box:active {
     right: 8px;
     top: 8px; }
 
-.image {
+.image, .section__image, .section__image--landing {
   display: block;
   position: relative; }
-  .image img {
+  .image img, .section__image img, .section__image--landing img {
     display: block;
     height: auto;
     width: 100%; }
-  .image.is-square img, .image.is-1by1 img, .image.is-4by3 img, .image.is-3by2 img, .image.is-16by9 img, .image.is-2by1 img {
+  .image.is-square img, .is-square.section__image img, .is-square.section__image--landing img, .image.is-1by1 img, .is-1by1.section__image img, .is-1by1.section__image--landing img, .image.is-4by3 img, .is-4by3.section__image img, .is-4by3.section__image--landing img, .image.is-3by2 img, .is-3by2.section__image img, .is-3by2.section__image--landing img, .image.is-16by9 img, .is-16by9.section__image img, .is-16by9.section__image--landing img, .image.is-2by1 img, .is-2by1.section__image img, .is-2by1.section__image--landing img {
     bottom: 0;
     left: 0;
     position: absolute;
@@ -1295,35 +1295,35 @@ a.box:active {
     top: 0;
     height: 100%;
     width: 100%; }
-  .image.is-square, .image.is-1by1 {
+  .image.is-square, .is-square.section__image, .is-square.section__image--landing, .image.is-1by1, .is-1by1.section__image, .is-1by1.section__image--landing {
     padding-top: 100%; }
-  .image.is-4by3 {
+  .image.is-4by3, .is-4by3.section__image, .is-4by3.section__image--landing {
     padding-top: 75%; }
-  .image.is-3by2 {
+  .image.is-3by2, .is-3by2.section__image, .is-3by2.section__image--landing {
     padding-top: 66.6666%; }
-  .image.is-16by9 {
+  .image.is-16by9, .is-16by9.section__image, .is-16by9.section__image--landing {
     padding-top: 56.25%; }
-  .image.is-2by1 {
+  .image.is-2by1, .is-2by1.section__image, .is-2by1.section__image--landing {
     padding-top: 50%; }
-  .image.is-16x16 {
+  .image.is-16x16, .is-16x16.section__image, .is-16x16.section__image--landing {
     height: 16px;
     width: 16px; }
-  .image.is-24x24 {
+  .image.is-24x24, .is-24x24.section__image, .is-24x24.section__image--landing {
     height: 24px;
     width: 24px; }
-  .image.is-32x32 {
+  .image.is-32x32, .is-32x32.section__image, .is-32x32.section__image--landing {
     height: 32px;
     width: 32px; }
-  .image.is-48x48 {
+  .image.is-48x48, .is-48x48.section__image, .is-48x48.section__image--landing {
     height: 48px;
     width: 48px; }
-  .image.is-64x64 {
+  .image.is-64x64, .is-64x64.section__image, .is-64x64.section__image--landing {
     height: 64px;
     width: 64px; }
-  .image.is-96x96 {
+  .image.is-96x96, .is-96x96.section__image, .is-96x96.section__image--landing {
     height: 96px;
     width: 96px; }
-  .image.is-128x128 {
+  .image.is-128x128, .is-128x128.section__image, .is-128x128.section__image--landing {
     height: 128px;
     width: 128px; }
 
@@ -1574,9 +1574,9 @@ a.box:active {
     font-size: 28px; }
     .title.is-3 code {
       font-size: 24px; }
-  .title.is-4, .title.projects-grid__item {
+  .title.is-4 {
     font-size: 24px; }
-    .title.is-4 code, .title.projects-grid__item code {
+    .title.is-4 code {
       font-size: 18px; }
   .title.is-5 {
     font-size: 18px; }
@@ -1620,9 +1620,9 @@ a.box:active {
     font-size: 28px; }
     .subtitle.is-3 code {
       font-size: 24px; }
-  .subtitle.is-4, .subtitle.projects-grid__item {
+  .subtitle.is-4 {
     font-size: 24px; }
-    .subtitle.is-4 code, .subtitle.projects-grid__item code {
+    .subtitle.is-4 code {
       font-size: 18px; }
   .subtitle.is-5 {
     font-size: 18px; }
@@ -2811,14 +2811,14 @@ a.panel-block:hover {
   .columns.is-mobile > .column.is-2, .is-mobile.nav > .column.is-2, .is-mobile.projects-grid > .column.is-2, .columns.is-mobile > .is-2.nav__link-holder, .is-mobile.nav > .is-2.nav__link-holder, .is-mobile.projects-grid > .is-2.nav__link-holder, .columns.is-mobile > .is-2.projects-grid__item, .is-mobile.nav > .is-2.projects-grid__item, .is-mobile.projects-grid > .is-2.projects-grid__item {
     flex: none;
     width: 16.66667%; }
-  .columns.is-mobile > .column.is-offset-2, .is-mobile.nav > .column.is-offset-2, .is-mobile.projects-grid > .column.is-offset-2, .columns.is-mobile > .is-offset-2.nav__link-holder, .is-mobile.nav > .is-offset-2.nav__link-holder, .is-mobile.projects-grid > .is-offset-2.nav__link-holder, .columns.is-mobile > .is-offset-2.projects-grid__item, .is-mobile.nav > .is-offset-2.projects-grid__item, .is-mobile.projects-grid > .is-offset-2.projects-grid__item {
+  .columns.is-mobile > .column.is-offset-2, .is-mobile.nav > .column.is-offset-2, .is-mobile.projects-grid > .column.is-offset-2, .columns.is-mobile > .is-offset-2.nav__link-holder, .is-mobile.nav > .is-offset-2.nav__link-holder, .is-mobile.projects-grid > .is-offset-2.nav__link-holder, .columns.is-mobile > .nav__link-holder.projects-grid__item, .columns.is-mobile > .projects-grid__item, .is-mobile.nav > .projects-grid__item, .is-mobile.projects-grid > .projects-grid__item {
     margin-left: 16.66667%; }
   .columns.is-mobile > .column.is-3, .is-mobile.nav > .column.is-3, .is-mobile.projects-grid > .column.is-3, .columns.is-mobile > .is-3.nav__link-holder, .is-mobile.nav > .is-3.nav__link-holder, .is-mobile.projects-grid > .is-3.nav__link-holder, .columns.is-mobile > .is-3.projects-grid__item, .is-mobile.nav > .is-3.projects-grid__item, .is-mobile.projects-grid > .is-3.projects-grid__item {
     flex: none;
     width: 25%; }
   .columns.is-mobile > .column.is-offset-3, .is-mobile.nav > .column.is-offset-3, .is-mobile.projects-grid > .column.is-offset-3, .columns.is-mobile > .is-offset-3.nav__link-holder, .is-mobile.nav > .is-offset-3.nav__link-holder, .is-mobile.projects-grid > .is-offset-3.nav__link-holder, .columns.is-mobile > .is-offset-3.projects-grid__item, .is-mobile.nav > .is-offset-3.projects-grid__item, .is-mobile.projects-grid > .is-offset-3.projects-grid__item {
     margin-left: 25%; }
-  .columns.is-mobile > .column.is-4, .is-mobile.nav > .column.is-4, .is-mobile.projects-grid > .column.is-4, .columns.is-mobile > .is-4.nav__link-holder, .is-mobile.nav > .is-4.nav__link-holder, .is-mobile.projects-grid > .is-4.nav__link-holder, .columns.is-mobile > .nav__link-holder.projects-grid__item, .columns.is-mobile > .projects-grid__item, .is-mobile.nav > .projects-grid__item, .is-mobile.projects-grid > .projects-grid__item {
+  .columns.is-mobile > .column.is-4, .is-mobile.nav > .column.is-4, .is-mobile.projects-grid > .column.is-4, .columns.is-mobile > .is-4.nav__link-holder, .is-mobile.nav > .is-4.nav__link-holder, .is-mobile.projects-grid > .is-4.nav__link-holder, .columns.is-mobile > .is-4.projects-grid__item, .is-mobile.nav > .is-4.projects-grid__item, .is-mobile.projects-grid > .is-4.projects-grid__item {
     flex: none;
     width: 33.33333%; }
   .columns.is-mobile > .column.is-offset-4, .is-mobile.nav > .column.is-offset-4, .is-mobile.projects-grid > .column.is-offset-4, .columns.is-mobile > .is-offset-4.nav__link-holder, .is-mobile.nav > .is-offset-4.nav__link-holder, .is-mobile.projects-grid > .is-offset-4.nav__link-holder, .columns.is-mobile > .is-offset-4.projects-grid__item, .is-mobile.nav > .is-offset-4.projects-grid__item, .is-mobile.projects-grid > .is-offset-4.projects-grid__item {
@@ -2843,7 +2843,7 @@ a.panel-block:hover {
     width: 66.66667%; }
   .columns.is-mobile > .column.is-offset-8, .is-mobile.nav > .column.is-offset-8, .is-mobile.projects-grid > .column.is-offset-8, .columns.is-mobile > .is-offset-8.nav__link-holder, .is-mobile.nav > .is-offset-8.nav__link-holder, .is-mobile.projects-grid > .is-offset-8.nav__link-holder, .columns.is-mobile > .is-offset-8.projects-grid__item, .is-mobile.nav > .is-offset-8.projects-grid__item, .is-mobile.projects-grid > .is-offset-8.projects-grid__item {
     margin-left: 66.66667%; }
-  .columns.is-mobile > .column.is-9, .is-mobile.nav > .column.is-9, .is-mobile.projects-grid > .column.is-9, .columns.is-mobile > .is-9.nav__link-holder, .is-mobile.nav > .is-9.nav__link-holder, .is-mobile.projects-grid > .is-9.nav__link-holder, .columns.is-mobile > .is-9.projects-grid__item, .is-mobile.nav > .is-9.projects-grid__item, .is-mobile.projects-grid > .is-9.projects-grid__item {
+  .columns.is-mobile > .column.is-9, .is-mobile.nav > .column.is-9, .is-mobile.projects-grid > .column.is-9, .columns.is-mobile > .is-9.nav__link-holder, .is-mobile.nav > .is-9.nav__link-holder, .is-mobile.projects-grid > .is-9.nav__link-holder, .columns.is-mobile > .nav__link-holder.projects-grid__item, .columns.is-mobile > .projects-grid__item, .is-mobile.nav > .projects-grid__item, .is-mobile.projects-grid > .projects-grid__item {
     flex: none;
     width: 75%; }
   .columns.is-mobile > .column.is-offset-9, .is-mobile.nav > .column.is-offset-9, .is-mobile.projects-grid > .column.is-offset-9, .columns.is-mobile > .is-offset-9.nav__link-holder, .is-mobile.nav > .is-offset-9.nav__link-holder, .is-mobile.projects-grid > .is-offset-9.nav__link-holder, .columns.is-mobile > .is-offset-9.projects-grid__item, .is-mobile.nav > .is-offset-9.projects-grid__item, .is-mobile.projects-grid > .is-offset-9.projects-grid__item {
@@ -2993,14 +2993,14 @@ a.panel-block:hover {
     .column.is-2, .is-2.nav__link-holder, .is-2.projects-grid__item, .column.is-2-tablet, .is-2-tablet.nav__link-holder, .is-2-tablet.projects-grid__item {
       flex: none;
       width: 16.66667%; }
-    .column.is-offset-2, .is-offset-2.nav__link-holder, .is-offset-2.projects-grid__item, .column.is-offset-2-tablet, .is-offset-2-tablet.nav__link-holder, .is-offset-2-tablet.projects-grid__item {
+    .column.is-offset-2, .is-offset-2.nav__link-holder, .projects-grid__item, .column.is-offset-2-tablet, .is-offset-2-tablet.nav__link-holder, .is-offset-2-tablet.projects-grid__item {
       margin-left: 16.66667%; }
     .column.is-3, .is-3.nav__link-holder, .is-3.projects-grid__item, .column.is-3-tablet, .is-3-tablet.nav__link-holder, .is-3-tablet.projects-grid__item {
       flex: none;
       width: 25%; }
     .column.is-offset-3, .is-offset-3.nav__link-holder, .is-offset-3.projects-grid__item, .column.is-offset-3-tablet, .is-offset-3-tablet.nav__link-holder, .is-offset-3-tablet.projects-grid__item {
       margin-left: 25%; }
-    .column.is-4, .is-4.nav__link-holder, .projects-grid__item, .column.is-4-tablet, .is-4-tablet.nav__link-holder, .is-4-tablet.projects-grid__item {
+    .column.is-4, .is-4.nav__link-holder, .is-4.projects-grid__item, .column.is-4-tablet, .is-4-tablet.nav__link-holder, .is-4-tablet.projects-grid__item {
       flex: none;
       width: 33.33333%; }
     .column.is-offset-4, .is-offset-4.nav__link-holder, .is-offset-4.projects-grid__item, .column.is-offset-4-tablet, .is-offset-4-tablet.nav__link-holder, .is-offset-4-tablet.projects-grid__item {
@@ -3025,7 +3025,7 @@ a.panel-block:hover {
       width: 66.66667%; }
     .column.is-offset-8, .is-offset-8.nav__link-holder, .is-offset-8.projects-grid__item, .column.is-offset-8-tablet, .is-offset-8-tablet.nav__link-holder, .is-offset-8-tablet.projects-grid__item {
       margin-left: 66.66667%; }
-    .column.is-9, .is-9.nav__link-holder, .is-9.projects-grid__item, .column.is-9-tablet, .is-9-tablet.nav__link-holder, .is-9-tablet.projects-grid__item {
+    .column.is-9, .is-9.nav__link-holder, .projects-grid__item, .column.is-9-tablet, .is-9-tablet.nav__link-holder, .is-9-tablet.projects-grid__item {
       flex: none;
       width: 75%; }
     .column.is-offset-9, .is-offset-9.nav__link-holder, .is-offset-9.projects-grid__item, .column.is-offset-9-tablet, .is-offset-9-tablet.nav__link-holder, .is-offset-9-tablet.projects-grid__item {
@@ -3260,7 +3260,7 @@ a.panel-block:hover {
           margin-left: 0; } }
   .columns.is-mobile, .is-mobile.nav, .is-mobile.projects-grid {
     display: flex; }
-  .columns.is-multiline, .is-multiline.nav, .is-multiline.projects-grid {
+  .columns.is-multiline, .is-multiline.nav, .projects-grid {
     flex-wrap: wrap; }
   .columns.is-vcentered, .is-vcentered.nav, .is-vcentered.projects-grid {
     align-items: center; }
@@ -3306,7 +3306,7 @@ a.panel-block:hover {
     .tile.is-3 {
       flex: none;
       width: 25%; }
-    .tile.is-4, .tile.projects-grid__item {
+    .tile.is-4 {
       flex: none;
       width: 33.33333%; }
     .tile.is-5 {
@@ -3321,7 +3321,7 @@ a.panel-block:hover {
     .tile.is-8 {
       flex: none;
       width: 66.66667%; }
-    .tile.is-9 {
+    .tile.is-9, .tile.projects-grid__item {
       flex: none;
       width: 75%; }
     .tile.is-10 {
@@ -3897,16 +3897,15 @@ a.panel-block:hover {
   display: block;
   padding-top: 25px; }
 
-.section__image {
-  display: block;
-  margin: 0 auto; }
-
 .section__heading {
   font-size: 30px;
   line-height: 30px; }
 
 .section__text--large {
   padding-top: 15px; }
+
+.projects-grid__item {
+  display: block; }
 
 .main {
   margin: 0 auto;
