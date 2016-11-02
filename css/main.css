@@ -1280,14 +1280,14 @@ a.box:active {
     right: 8px;
     top: 8px; }
 
-.image, .section__image, .section__image--landing {
+.image, .section__image {
   display: block;
   position: relative; }
-  .image img, .section__image img, .section__image--landing img {
+  .image img, .section__image img {
     display: block;
     height: auto;
     width: 100%; }
-  .image.is-square img, .is-square.section__image img, .is-square.section__image--landing img, .image.is-1by1 img, .is-1by1.section__image img, .is-1by1.section__image--landing img, .image.is-4by3 img, .is-4by3.section__image img, .is-4by3.section__image--landing img, .image.is-3by2 img, .is-3by2.section__image img, .is-3by2.section__image--landing img, .image.is-16by9 img, .is-16by9.section__image img, .is-16by9.section__image--landing img, .image.is-2by1 img, .is-2by1.section__image img, .is-2by1.section__image--landing img {
+  .image.is-square img, .is-square.section__image img, .image.is-1by1 img, .is-1by1.section__image img, .image.is-4by3 img, .is-4by3.section__image img, .image.is-3by2 img, .is-3by2.section__image img, .image.is-16by9 img, .is-16by9.section__image img, .image.is-2by1 img, .is-2by1.section__image img {
     bottom: 0;
     left: 0;
     position: absolute;
@@ -1295,35 +1295,35 @@ a.box:active {
     top: 0;
     height: 100%;
     width: 100%; }
-  .image.is-square, .is-square.section__image, .is-square.section__image--landing, .image.is-1by1, .is-1by1.section__image, .is-1by1.section__image--landing {
+  .image.is-square, .is-square.section__image, .image.is-1by1, .is-1by1.section__image {
     padding-top: 100%; }
-  .image.is-4by3, .is-4by3.section__image, .is-4by3.section__image--landing {
+  .image.is-4by3, .is-4by3.section__image {
     padding-top: 75%; }
-  .image.is-3by2, .is-3by2.section__image, .is-3by2.section__image--landing {
+  .image.is-3by2, .is-3by2.section__image {
     padding-top: 66.6666%; }
-  .image.is-16by9, .is-16by9.section__image, .is-16by9.section__image--landing {
+  .image.is-16by9, .is-16by9.section__image {
     padding-top: 56.25%; }
-  .image.is-2by1, .is-2by1.section__image, .is-2by1.section__image--landing {
+  .image.is-2by1, .is-2by1.section__image {
     padding-top: 50%; }
-  .image.is-16x16, .is-16x16.section__image, .is-16x16.section__image--landing {
+  .image.is-16x16, .is-16x16.section__image {
     height: 16px;
     width: 16px; }
-  .image.is-24x24, .is-24x24.section__image, .is-24x24.section__image--landing {
+  .image.is-24x24, .is-24x24.section__image {
     height: 24px;
     width: 24px; }
-  .image.is-32x32, .is-32x32.section__image, .is-32x32.section__image--landing {
+  .image.is-32x32, .is-32x32.section__image {
     height: 32px;
     width: 32px; }
-  .image.is-48x48, .is-48x48.section__image, .is-48x48.section__image--landing {
+  .image.is-48x48, .is-48x48.section__image {
     height: 48px;
     width: 48px; }
-  .image.is-64x64, .is-64x64.section__image, .is-64x64.section__image--landing {
+  .image.is-64x64, .is-64x64.section__image {
     height: 64px;
     width: 64px; }
-  .image.is-96x96, .is-96x96.section__image, .is-96x96.section__image--landing {
+  .image.is-96x96, .is-96x96.section__image {
     height: 96px;
     width: 96px; }
-  .image.is-128x128, .is-128x128.section__image, .is-128x128.section__image--landing {
+  .image.is-128x128, .is-128x128.section__image {
     height: 128px;
     width: 128px; }
 
@@ -3889,7 +3889,7 @@ a.panel-block:hover {
       .footer a:not(.icon):hover, .footer a:visited:not(.icon):hover {
         border-bottom-color: #00d1b2; }
 
-.nav__item, .nav__item--main, .section__text--large {
+.nav__item, .nav__item--main {
   font-size: 21px;
   line-height: 24px; }
 
@@ -3898,11 +3898,19 @@ a.panel-block:hover {
   padding-top: 25px; }
 
 .section__heading {
-  font-size: 30px;
-  line-height: 30px; }
+  margin-bottom: 1em;
+  border-bottom: 1px solid;
+  display: inline; }
 
-.section__text--large {
-  padding-top: 15px; }
+.section__list {
+  margin-left: 2em;
+  line-height: 1.5em; }
+
+.section__text {
+  padding-top: 1.5em;
+  margin-left: .5em;
+  line-height: 1.25em;
+  text-align: justify; }
 
 .projects-grid__item {
   display: block; }
