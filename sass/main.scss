@@ -23,27 +23,42 @@
 }
 
 .section {
+
+
   &__image {
-    display: block;
-    margin: 0 auto;
+    @extend .image;
   }
+
   &__heading {
-    font-size: 30px;
-    line-height: 30px;
+    margin-bottom: 1em;
+    border-bottom: 1px solid;
+    display: inline;
   }
+
+  &__center {
+  }
+
+  &__list {
+    margin-left: 2em;
+    line-height: 1.5em;
+  }
+
   &__text {
-    &--large {
-      @extend %medium-type;
-      padding-top: 15px;
-    }
+    padding-top: 1.5em;
+    margin-left: .5em;
+    line-height: 1.25em;
+    text-align: justify;
   }
 }
 
 .projects-grid {
   @extend .columns;
+  @extend .is-multiline;
   &__item {
     @extend .column;
-    @extend .is-4;
+    @extend .is-9;
+    @extend .is-offset-2;
+    display: block;
   }
 }
 
