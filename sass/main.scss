@@ -1,4 +1,22 @@
+$black: #000;
+$grey:  hsl(0, 0%, 48%) !default
+
+$primary: $black;
+$text-strong: $black;
+$text-light: $black;
+$link-hover: $grey;
+
+$family-sans-serif: 'Open Sans';
+
 @import '../node_modules/bulma/bulma';
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto';
+}
+
+html {
+  background: $black;
+}
 
 %medium-type {
   font-size: 21px;
@@ -10,8 +28,14 @@
 
   &__item {
     @extend %medium-type;
+    font-family: 'Roboto';
     &--main {
       @extend %medium-type;
+      font-family: 'Roboto';
+      color: $turquoise;
+      &:hover {
+        color: $grey;
+      }
     }
   }
 
@@ -29,10 +53,14 @@
     @extend .image;
   }
 
+  &__intro-text {
+    font-family: 'Open Sans';
+  }
+
   &__heading {
     margin-bottom: 1em;
-    border-bottom: 1px solid;
-    display: inline;
+    display: block;
+    width: 100%;
   }
 
   &__center {
@@ -51,14 +79,16 @@
   }
 }
 
-.projects-grid {
+.projects-grid, .land-grid {
   @extend .columns;
   @extend .is-multiline;
+  background: #FFF;
+  padding: 30px;
   &__item {
     @extend .column;
     @extend .is-9;
-    @extend .is-offset-2;
     display: block;
+    margin: 0 auto;
   }
 }
 
